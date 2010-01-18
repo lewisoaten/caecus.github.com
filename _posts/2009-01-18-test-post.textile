@@ -1,0 +1,10 @@
+---
+layout: post
+title: Test Pst
+---
+
+h1. {{ page.title }}
+
+p(meta). 18 Jan 2009 - Plymouth
+
+This is a test post.
