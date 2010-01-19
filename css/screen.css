@@ -18,7 +18,6 @@ html, body {
 body {
   background-color: white;
   font: 13.34px helvetica, arial, clean, sans-serif;
-  *font-size: small;
   text-align: center;
 }
 
@@ -48,7 +47,6 @@ a:visited {
 
 table {
   font-size: inherit;
-  font: 100%;
 }
 
 /*****************************************************************************/
