@@ -1,2 +1,17 @@
 markdown: rdiscount
 pygments: true
+
+description: "Personal website for Lewis Oaten."
+keywords: - Lewis
+          - Oaten
+	  - Programming
+	  - Development
+	  - Software
+	  - Engineering
+	  - Code
+	  - SVN
+	  - Git
+	  - Scrum
+	  - XP
+	  - Computing
+main_title: "Lewis Oaten"
