@@ -18,4 +18,5 @@ site_pages:
   <lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
   <changefreq>weekly</changefreq>
 </url>
-{% endfor 
+{% endfor %}
+</urlset>
