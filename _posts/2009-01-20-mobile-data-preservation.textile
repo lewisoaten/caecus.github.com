@@ -1,0 +1,22 @@
+---
+layout: post
+title: Mobile Data Preservation
+---
+
+h1. {{ page.title }}
+
+p(meta). 20 Jan 2009 - Plymouth, United Kingdom
+
+I have recently undergone a phone upgrade which involved moving from Windows Mobile 6.1 to Android 2.1. As with any OS upgrade, whether its on a computer or mobile phone, preserving your data is a problem.
+
+Fortunately I have most of my data stored on “the cloud” using Google Calendar Sync for events, contacts and email, Remember The Milk's MilkSync for tasks, Shozu and PicasaWeb for pictures and Evernote for notes. The only data left to be preserved was SMS messages, but this had no immediately obvious solution.
+
+After some searching, I discovered this “helpful article”:http://homebrew.binaervarianz.de/index.php?/archives/13-How-to-move-Contacts-and-SMS-from-WindowsMobile-to-Android.html by Mario Mlynek. The article describes using  “PIMBackup”:http://www.dotfred.net/default.htm, which can extract a variety of data from the Windows Mobile phone into a propitiatory file format, and “SMS Backup and Restore”:http://android.riteshsahu.com/2009/11/sms-backup-restore.html to transfer the data.
+
+Unfortunately it was not as simple as passing the data directly from one application to the other, the user is required to perform a transformation of the CSV-esque data into XML. To make this transformation, any multi-line messages had to be reverted to a single line with HTML break tags in them. The file must then be put through a Perl script, which Mario had developed. At this stage, I had to perform some minor modifications to get it to work. My version of the script can be downloaded “here”:http://www.lewisoaten.com/files/2009-01-20-mobile-data-preservation/PIM2smsxml.pl.
+
+Finally you place the sms.xml file onto the Android phone, via Bluetooth or an alternate browser as the default browser fails to recognise the file type. The messages can then be restored so that the dates, content and threading is as though the messages were originally sent to the Android phone. If you want to ensure that none of the new messages are pruned, you should remember to modify Androids messaging application so that it doesn't delete old messages before performing the restoration.
+
+A problem did develop once my 11,500 messages were restored, and that was that the Android messaging application doesn't handle long messages threads particularly well. Such as with one particular person who I have sent or received over 4,000 messages from. This made me realise the benefit in pruning messages, but I didn't want to lose all the valuable information which I have just restored.
+
+After a little searching around, there is a SMS backup solution called “SMS Backup”:http://code.google.com/p/android-sms/. This solution automatically transfers all your messages to Gmail using IMAP. It can mark the messages as read and store them with a particular label. As a result, you are able to effectively view and search all or your archived messages, either through Gmail's web interface, or on the Gmail Android application. Once the initial backup was performed (200 messages at a time), I was able to re-enable SMS pruning and live with a faster phone, with the knowledge that another area of my personal data is archived, secured and searchable.
