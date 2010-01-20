@@ -49,13 +49,17 @@ layout: default
           window.open(url);
         });
 
+        $(".tweet").html("");
         // Load comments
         $(".tweet").tweet({
           avatar_size: 32,
-          count: 4,
-          query: data.results[defaults.longUrl].shortUrl
+          count: 20,
+          query: data.results[defaults.longUrl].shortUrl,
+          loading_text: '<img src="/images/loading.gif"></img> Loading comments...'
         });
-        $(".tweet").replace(data.results[defaults.longUrl].shortUrl, '')
+
+        // Clear out links to this page
+        $(".tweet").replace(data.results[defaults.longUrl].shortUrl, '');
     });
   });
 </script>
