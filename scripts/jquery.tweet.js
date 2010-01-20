@@ -15,6 +15,7 @@
       auto_join_text_url: "i was looking at", // [string]   auto tense for urls: "i was looking at" http:...
       loading_text: null,                     // [string]   optional loading text, displayed while tweets load
       query: null                             // [string]   optional search query
+      callback: null                          // [function]   optional callback
     };
     
     if(o) $.extend(s, o);
@@ -139,6 +140,8 @@
           list.children('li:even').addClass('tweet_odd');
         });
         if (s.outro_text) list.after(outro);
+        //We have done what we need to do, call the callback function
+        if (typeof callback == 'function') callback.call();
       });
 
     });
