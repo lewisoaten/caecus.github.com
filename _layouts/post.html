@@ -61,7 +61,7 @@ layout: default
           callback: function(){
             // Clear out links to this page
             var oldHTML = $("#comment").html();
-            var newHTML = oldHTML.replace(/data.results[defaults.longUrl].shortUrl/g, '');
+            var newHTML = oldHTML.replace(new RegExp( data.results[defaults.longUrl].shortUrl, "g" ), '');
             $("textarea#message").val( oldHTML + "\n----------\n" + newHTML);
             }
         });
