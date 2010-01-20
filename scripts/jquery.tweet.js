@@ -140,9 +140,9 @@
           list.children('li:even').addClass('tweet_odd');
         });
         if (s.outro_text) list.after(outro);
+      //We have done what we need to do, call the callback function
+      if (typeof s.callback == 'function') s.callback.call();
       });
     });
-  //We have done what we need to do, call the callback function
-  if (typeof s.callback == 'function') s.callback.call();
   };
 })(jQuery);
