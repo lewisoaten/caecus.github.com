@@ -57,13 +57,14 @@ layout: default
           avatar_size: 32,
           count: 20,
           query: data.results[defaults.longUrl].shortUrl,
-          loading_text: '<img src="/images/loading.gif"></img> Loading comments...'
+          loading_text: '<img src="/images/loading.gif"></img> Loading comments...',
+          callback: function(){
+            // Clear out links to this page
+            var oldHTML = $("#comment").html();
+            var newHTML = oldHTML.replace(data.results[defaults.longUrl].shortUrl, '');
+            $("#comment").html(newHTML);
+            }
         });
-
-        // Clear out links to this page
-        //var oldHTML = $("#comment").html();
-        //var newHTML = oldHTML.replace(data.results[defaults.longUrl].shortUrl, '');
-        //$("#comment").html(newHTML);
     });
   });
 </script>
