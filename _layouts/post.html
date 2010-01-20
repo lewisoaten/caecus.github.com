@@ -5,16 +5,21 @@ layout: default
 {{ content }}
 </div>
 
-<div id="related">
+<!-- <div id="related">
   <h2>Related Posts</h2>
   <ul class="posts">
     {% for post in site.related_posts limit:3 %}
       <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
   </ul>
-</div>
+</div> -->
 
-<div class="tweet"></div>
+<h2>Comments</h2>
+<form action="" method="post">
+  <label for="tweet">Comment: </label><textarea id="tweet" cols="50" rows="3"></textarea>
+  <input type="button" id="tweetBtn" value="Tweet"/> 
+</form> 
+<div id="comments"></div>
 <script type='text/javascript'>
   $(document).ready(function(){
     // set up default options
@@ -37,9 +42,16 @@ layout: default
 
     // Utilize the bit.ly API
     $.getJSON(daurl, function(data){
+        // Setup comment box
+        $('#tweetBtn').click( function() {
+          var url = "http://twitter.com/home?status=" +
+                    $('textarea#tweet').val() +
+                    " " + data.results[defaults.longUrl].shortUrl;
+          window.open();
+        }
 
-        // Make a good use of short URL
-        $(".tweet").tweet({
+        // Load comments
+        $("#comments").tweet({
           avatar_size: 32,
           count: 4,
           query: data.results[defaults.longUrl].shortUrl,
