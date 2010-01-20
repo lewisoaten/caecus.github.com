@@ -19,7 +19,7 @@ layout: default
   <textarea id="message" cols="50" rows="3"></textarea>
   <input type="button" id="tweetBtn" value="Preview Tweet"/> 
 </form> 
-<div id="comments" class=".tweet">
+<div class=".tweet">
   <img src="/images/loading.gif"></img> Calculating comment tag...
 </div>
 <script type='text/javascript'>
@@ -52,7 +52,7 @@ layout: default
         });
 
         // Load comments
-        //$("#comments").html("");
+        $(".tweet").html("");
         $(".tweet").tweet({
           avatar_size: 32,
           count: 20,
