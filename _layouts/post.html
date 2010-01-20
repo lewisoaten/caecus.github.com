@@ -55,6 +55,7 @@ layout: default
           count: 4,
           query: data.results[defaults.longUrl].shortUrl
         });
+        $(".tweet").replace(data.results[defaults.longUrl].shortUrl, '')
     });
   });
 </script>
