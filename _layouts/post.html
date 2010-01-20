@@ -19,7 +19,7 @@ layout: default
   <textarea id="message" cols="50" rows="3"></textarea>
   <input type="button" id="tweetBtn" value="Preview Tweet"/> 
 </form> 
-<div class="tweet">
+<div id="comments">
   <img src="/images/loading.gif"></img> Calculating comments...
 </div>
 <script type='text/javascript'>
@@ -51,9 +51,9 @@ layout: default
           window.open(url);
         });
 
-        $(".tweet").html("");
+        $("#comments").html("");
         // Load comments
-        $(".tweet").tweet({
+        $(".comments").tweet({
           avatar_size: 32,
           count: 20,
           query: data.results[defaults.longUrl].shortUrl,
@@ -61,7 +61,7 @@ layout: default
         });
 
         // Clear out links to this page
-        $(".tweet").html($(".tweet").html().replace(data.results[defaults.longUrl].shortUrl, ''));
+        $("#comments").html($("#comments").html().replace(data.results[defaults.longUrl].shortUrl, ''));
     });
   });
 </script>
