@@ -141,7 +141,7 @@
         });
         if (s.outro_text) list.after(outro);
         //We have done what we need to do, call the callback function
-        if (typeof callback == 'function') callback.call();
+        if (typeof s.callback == 'function') s.callback.call();
       });
 
     });
