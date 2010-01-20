@@ -16,10 +16,10 @@ layout: default
 
 <h2>Comments</h2>
 <form action="" method="post">
-  <textarea id="tweet" cols="50" rows="3"></textarea>
+  <textarea id="message" cols="50" rows="3"></textarea>
   <input type="button" id="tweetBtn" value="Tweet"/> 
 </form> 
-<div id="comments"></div>
+<div class="tweet"></div>
 <script type='text/javascript'>
   $(document).ready(function(){
     // set up default options
@@ -45,12 +45,12 @@ layout: default
         // Setup comment box
         $('#tweetBtn').click( function() {
           var url = "http://twitter.com/#search?q=" + data.results[defaults.longUrl].shortUrl + "&status=";
-          url += $('textarea#tweet').val() + " " + data.results[defaults.longUrl].shortUrl;
+          url += $('textarea#message').val() + " " + data.results[defaults.longUrl].shortUrl;
           window.open(url);
         });
 
         // Load comments
-        $("#comments").tweet({
+        $(".tweet").tweet({
           avatar_size: 32,
           count: 4,
           query: data.results[defaults.longUrl].shortUrl,
