@@ -16,12 +16,35 @@ layout: default
 
 <div class="tweet"></div>
 <script type='text/javascript'>
-    $(document).ready(function(){
+  $(document).ready(function(){
+    // set up default options
+    var defaults = {
+      version:    '2.0.1',
+      login:      'caecus',
+      apiKey:     'R_805cccec98054fee49e9f974d28623bf',
+      history:    '0',
+      longUrl:    ''
+    };
+
+  // Build the URL to query
+  var daurl = "http://api.bit.ly/shorten?"
+    +"version="+defaults.version
+    +"&longUrl="+defaults.longUrl
+    +"&login="+defaults.login
+    +"&apiKey="+defaults.apiKey
+    +"&history="+defaults.history
+    +"&format=json&callback=?";
+
+    // Utilize the bit.ly API
+    $.getJSON(daurl, function(data){
+
+        // Make a good use of short URL
         $(".tweet").tweet({
           avatar_size: 32,
           count: 4,
-          query: "http://bit.ly/4Kl7z1",
+          query: data.results[url].shortUrl,
           loading_text: "Loading comments..."
         });
     });
+  });
 </script>
