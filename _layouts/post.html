@@ -42,7 +42,7 @@ layout: default
         $(".tweet").tweet({
           avatar_size: 32,
           count: 4,
-          query: data.results[shortUrl].shortUrl,
+          query: data.results[defaults.longUrl].shortUrl,
           loading_text: "Loading comments..."
         });
     });
