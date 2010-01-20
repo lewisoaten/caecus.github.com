@@ -19,7 +19,7 @@ layout: default
   <label for="tweet">Comment: </label><textarea id="tweet" cols="50" rows="3"></textarea>
   <input type="button" id="tweetBtn" value="Tweet"/> 
 </form> 
-<div class="comments"></div>
+<div id="comments"></div>
 <script type='text/javascript'>
   $(document).ready(function(){
     // set up default options
@@ -48,10 +48,10 @@ layout: default
                     $('textarea#tweet').val() +
                     " " + data.results[defaults.longUrl].shortUrl;
           window.open();
-        }
+        });
 
         // Load comments
-        $(".comments").tweet({
+        $("#comments").tweet({
           avatar_size: 32,
           count: 4,
           query: data.results[defaults.longUrl].shortUrl,
