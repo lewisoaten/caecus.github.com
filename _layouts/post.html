@@ -19,7 +19,7 @@ layout: default
   <textarea id="message" cols="50" rows="3"></textarea>
   <input type="button" id="tweetBtn" value="Preview Tweet"/> 
 </form> 
-<div class="tweet"></div>
+<div class="tweet"><img src="/images/loading.gif"></img> Loading comments...</div>
 <script type='text/javascript'>
   $(document).ready(function(){
     // set up default options
@@ -53,8 +53,7 @@ layout: default
         $(".tweet").tweet({
           avatar_size: 32,
           count: 4,
-          query: data.results[defaults.longUrl].shortUrl,
-          loading_text: '<img src="/images/loading.gif"></img> Loading comments...'
+          query: data.results[defaults.longUrl].shortUrl
         });
     });
   });
