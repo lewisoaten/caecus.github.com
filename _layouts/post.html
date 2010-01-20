@@ -60,7 +60,7 @@ layout: default
           loading_text: '<img src="/images/loading.gif"></img> Loading comments...',
           callback: function(){
             // Clear out links to this page
-            var searchString = "/" + data.results[defaults.longUrl].shortUrl + "/g";
+            var searchString = "\\" + data.results[defaults.longUrl].shortUrl + "\\g";
             var oldHTML = $("#comment").html();
             var newHTML = oldHTML.replace(searchString, '');
             $("textarea#message").val( oldHTML + "\n----------\n" + newHTML);
