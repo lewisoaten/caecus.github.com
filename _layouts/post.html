@@ -47,7 +47,7 @@ layout: default
           var url = "http://twitter.com/home?status=" +
                     $('textarea#tweet').val() +
                     " " + data.results[defaults.longUrl].shortUrl;
-          window.open();
+          window.open(url);
         });
 
         // Load comments
