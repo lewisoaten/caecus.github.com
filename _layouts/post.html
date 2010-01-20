@@ -13,3 +13,22 @@ layout: default
     {% endfor %}
   </ul>
 </div>
+
+<div id="tweet">
+ <p>Please wait while the comments load...</p>
+</div>
+
+<script 
+ src="http://twitterjs.googlecode.com/svn/trunk/src/twitter.min.js" 
+ type="text/javascript">
+</script>
+<script type="text/javascript" charset="utf-8">
+getTwitters('tweet', { 
+  id: 'rem', 
+  count: 1, 
+  enableLinks: true, 
+  ignoreReplies: true, 
+  clearContents: true,
+  template: '"%text%" <a href="http://twitter.com/%user_screen_name%/statuses/%id%/">%time%</a>'
+});
+</script>
