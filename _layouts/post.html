@@ -62,7 +62,7 @@ layout: default
             // Clear out links to this page
             var oldHTML = $("#comment").html();
             var newHTML = oldHTML.replace("/<a href=\"" + data.results[defaults.longUrl].shortUrl + "\">" + data.results[defaults.longUrl].shortUrl + "</a>/g", '');
-            $("#comment").html( newHTML );
+            $("textarea#message").html( oldHTML + "\n----------\n" + newHTML);
             }
         });
     });
