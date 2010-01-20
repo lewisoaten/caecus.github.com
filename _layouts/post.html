@@ -60,7 +60,9 @@ layout: default
           loading_text: '<img src="/images/loading.gif"></img> Loading comments...',
           callback: function(){
             // Clear out links to this page
-            $("#comment").html($("#comment").html().replace("/<a href=\"" + data.results[defaults.longUrl].shortUrl + "\">" + data.results[defaults.longUrl].shortUrl + "</a>/g", ''));
+            var oldHTML = $("#comment").html();
+            var newHTML = oldHTML.replace("/<a href=\"" + data.results[defaults.longUrl].shortUrl + "\">" + data.results[defaults.longUrl].shortUrl + "</a>/g", '');
+            $("#comment").html( newHTML );
             }
         });
     });
