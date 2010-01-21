@@ -61,8 +61,7 @@ layout: default
           callback: function(){
             // Clear out links to this page
             var searchString = "<a href=\"" + data.results[defaults.longUrl].shortUrl + "\">" + data.results[defaults.longUrl].shortUrl + "</a>";
-            var oldHTML = $("#comment").html();
-            var newHTML = oldHTML.replace(new RegExp( searchString, "g" ), '');
+            var newHTML = $("#comment").html().replace(new RegExp( searchString, "g" ), '');
             $("#comment").html(newHTML);
             }
         });
