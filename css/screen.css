@@ -196,7 +196,7 @@ ul.posts {
 
   /* quote */
   #post blockquote {
-    border-left: 1px solid #FAFAFA;
+    border-left: 1px solid #AAA;
     margin-left: 20px;
     margin-right: 20px;
     padding: 10px;
