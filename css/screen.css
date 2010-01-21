@@ -196,11 +196,10 @@ ul.posts {
 
   /* quote */
   #post blockquote {
-    border-left: 2px solid #AAA;
-    width: 200px;
+    border-left: 1px solid #FCFCFC;
     margin-left: 20px;
+    margin-right: 20px;
     padding: 10px;
-    background-color: #EEE;
     quotes: "\201C" "\201D";
     }
 
