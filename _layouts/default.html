@@ -4,6 +4,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- Google Webmaster -->
   <meta name="google-site-verification" content="cSj7MSQ6_zuQWlVU81ZurYsi268ryy1xHWPuUXa8YR0" />
 
   <meta name="author" content="Lewis Oaten" />
@@ -11,6 +13,19 @@
   <meta name="keywords" content="{{site.keywords | join: ','}}" />
   {% if page.date %}<meta http-equiv="date" content="{{page.date | date: '%A, %d  %Y %H:%M:%S GMT'}}" />{% endif %}
   <meta name="robots" content="{{page.index}}INDEX, {{page.follow}}FOLLOW, {{page.archive}}ARCHIVE, {{page.snippet}}SNIPPET" />
+
+  <!-- Google Analytics -->
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+    })();
+  </script>
 
   <title>{{site.main_title}} - {{page.title}}</title>
 
