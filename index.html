@@ -17,10 +17,10 @@ title: Lewis Oaten
 
           {% for post in site.posts %}
           <!--BLOG ENTRY1 -->
-          <span class="date"><strong>22</strong><em>January</em>99 Comments</span>
+          <span class="date"><strong>{{ post.date | date: "%d" }}</strong><em>{{ post.date | date: "%B" }}</em>99 Comments</span>
           <div class="blogcontent">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
-            <strong>{{ post.date | date_to_string }}{{ post.snippet }}</strong>
+            <strong>{{ post.snippet }}</strong>
           </div>
           <!--/BLOG ENTRY1 -->
           {% endfor %}
