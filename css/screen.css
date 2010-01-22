@@ -6,14 +6,14 @@ body {
  border:0px;
  font: 12px Arial, Helvetica, sans-serif;
  color:#111;
- background-image:url(images/repeat.gif);
+ background-image:url(/images/repeat.gif);
  }
 .case {
  position:relative;
  width:100%;
  padding-top:104px;
  height:auto;
- background:url(images/repeat2.gif) repeat-x;
+ background:url(/images/repeat2.gif) repeat-x;
  }
 .centrecase {
  position:relative;
@@ -25,7 +25,7 @@ body {
 }
 #logo {
  position:absolute;
- background-image:url(images/logo.gif);
+ background-image:url(/images/logo.gif);
  width:350px;
  height:53px;
  display:block;
@@ -41,14 +41,14 @@ body {
  top:0px;
 }
 #infotab {
- background-image:url(images/info.gif);
+ background-image:url(/images/info.gif);
 }
 #blogtab {
- background-image:url(images/blog.gif);
+ background-image:url(/images/blog.gif);
  top:-7px;
 }
 #projecttab {
- background-image:url(images/projects.gif);
+ background-image:url(/images/projects.gif);
  top:-7px;
 }
 #infosection {
@@ -107,7 +107,7 @@ body {
  height:14px;
  padding-top:66px;
  position:relative;
- background:url(images/dateback.gif) no-repeat;
+ background:url(/images/dateback.gif) no-repeat;
  display:block;
  clear:left;
  float:left;
@@ -168,7 +168,7 @@ body {
  width:25px;
  height:25px;
  display:block;
- background-image:url(images/rss.gif);
+ background-image:url(/images/rss.gif);
  z-index:100;
 }
 #github {
@@ -176,21 +176,21 @@ body {
  height:36px;
  float:right;
 display:block;
-background-image:url(images/github.gif);
+background-image:url(/images/github.gif);
 }
 #linkedin {
  width:118px;
  height:36px;
  float:right;
  display:block;
- background-image:url(images/linkedin.gif);
+ background-image:url(/images/linkedin.gif);
 }
 #google {
  width:151px;
  height:36px;
  float:right;
  display:block;
- background-image:url(images/google.gif);
+ background-image:url(/images/google.gif);
 }
 #projectsection ul {
  width:610px;
