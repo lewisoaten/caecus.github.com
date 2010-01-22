@@ -1,144 +1,251 @@
-/*****************************************************************************/
-/*
-/* Common
-/*
-/*****************************************************************************/
-
-/* Global Reset */
-
-* {
-  margin: 0;
-  padding: 0;
-  }
-
-html, body {
-  height: 100%;
-  }
+@charset "UTF-8";
+/* CSS Document */
 
 body {
-  background-color: white;
-  font: 13.34px helvetica, arial, clean, sans-serif;
-  text-align: center;
-  }
+ margin:0px;
+ border:0px;
+ font: 12px Arial, Helvetica, sans-serif;
+ color:#111;
+ background-image:url(imgs/repeat.gif);
+ }
+.case {
+ position:relative;
+ width:100%;
+ padding-top:104px;
+ height:auto;
+ background:url(imgs/repeat2.gif) repeat-x;
+ }
+.centrecase {
+ position:relative;
+ width:740px;
+ height:auto;
+ margin:0 auto 0 auto;
+ background-color:#FFF;
+ border-left:40px solid #454545;
+}
+#logo {
+ position:absolute;
+ background-image:url(imgs/logo.gif);
+ width:350px;
+ height:53px;
+ display:block;
+ top:-55px;
+ left:-40px;
+}
+#infotab, #blogtab, #projecttab{
+ position:absolute;
+ width:40px;
+ height:81px;
+ display:block;
+ left:-40px;
+ top:0px;
+}
+#infotab {
+ background-image:url(imgs/info.gif);
+}
+#blogtab {
+ background-image:url(imgs/blog.gif);
+ top:-7px;
+}
+#projecttab {
+ background-image:url(imgs/projects.gif);
+ top:-7px;
+}
+#infosection {
+ position:relative;
+ padding:16px 20px 30px 20px;
+ width:700px;
+ height:auto;
+ margin:0px;
+}
+#infosection h1 {
+ font:25px normal Georgia, "Times New Roman", Times, serif;
+ color:#333;
+ font-weight:100;
+ line-height:26px;
+ margin:0px;
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%;
-  }
+}
+#infosection h2 {
+ position:relative;
+ font:16px normal Georgia, "Times New Roman", Times, serif;
+ color:#444;
+ display:block;
+ font-style:normal;
+ font-weight:100;
+ width:700px;
+ text-align:justify;
+ top:6px;
+ margin:0px;
+ line-height:19px;
+ padding:0px;
+}
+#onlinebanner {
+ position:relative;
+ display:inline-block;
+ width:717px;
+ height:36px;
+ margin-top:0px;
+ padding:3px 20px 3px 3px;
+ background-color:#d0d0d0;
+ text-align:right;
 
-h1 {
-  margin-bottom: 1em;
-  }
+}
+#blogsection, #projectsection {
+ position:relative;
+ padding:20px;
+ width:700px;
+ height:auto;
+ border-top:7px solid #2e2e2e;
+ display:inline-block;
+ top:-3px;
+ margin:0px;
+}
 
-p {
-  margin: 1em 0;
-  }
+.date {
+ width:65px;
+ height:14px;
+ padding-top:66px;
+ position:relative;
+ background:url(imgs/dateback.gif) no-repeat;
+ display:block;
+ clear:left;
+ float:left;
+ text-align:center;
+ font-size:9px;
+}
+.date strong, .date em {
+ color:#FFF;
+ position:absolute;
+ width:65px;
+ text-align:center;
+ left:0px;
+}
+.date strong {
+ top:0px;
+ font-size:40px;
+}
+.date em{
+ top:43px;
+ font-size:12px;
+ font-style:normal;
+}
+.blogcontent{
+ position:relative;
+ float:left;
+ width:610px;
+ height:auto;
+ padding-bottom:20px;
+ border-bottom:1px dotted #555;
+ margin:0px 0px 20px 20px;
+}
+.blogcontent h3 {
+ padding:0px;
+ margin:0px;
+ font-size:24px;
+ color:#343434;
+ letter-spacing:-1px;
+ background-color:#F4F4F4
+}
+.blogcontent strong {
+ position:relative;
+ font:16px normal Georgia, "Times New Roman", Times, serif;
+ font-weight:500;
+ margin:6px 0px 6px 0px;
+ display:block;
+}
+.blogcontent em {
+ font-size:11px;
+ font-style:normal;
+ text-align:justify;
+ display:block;
+ line-height:18px;
+}
+#rss {
+ position:absolute;
+ top:0px;
+ right:0px;
+ width:25px;
+ height:25px;
+ display:block;
+ background-image:url(imgs/rss.gif);
+ z-index:100;
+}
+#github {
+ width:78px;
+ height:36px;
+ float:right;
+display:block;
+background-image:url(imgs/github.gif);
+}
+#linkedin {
+ width:118px;
+ height:36px;
+ float:right;
+ display:block;
+ background-image:url(imgs/linkedin.gif);
+}
+#google {
+ width:151px;
+ height:36px;
+ float:right;
+ display:block;
+ background-image:url(imgs/google.gif);
+}
+#projectsection ul {
+ width:610px;
+ margin:0px 0px 40px 84px;
+ float:left;
+ position:relative;
+ padding:0px;
+}
+#projectsection li{
+ position:relative;
+ list-style:none;
+ font-size:24px;
+ font-weight:bold;
+ color:#333;
+ letter-spacing:-1px;
 
-a {
-  color: #00a;
-  }
-
-a:hover {
-  color: black;
-  }
-
-a:visited {
-  color: #a0a;
-  }
-
-table {
-  font-size: inherit;
-  }
-
-/*****************************************************************************/
-/*
-/* Home
-/*
-/*****************************************************************************/
-
-ul.posts {
-  list-style-type: none;
-  margin-bottom: 2em;
-  }
-
-  ul.posts li {
-    line-height: 1.75em;
-    }
-
-  ul.posts span {
-    color: #aaa;
-    font-family: Monaco, "Courier New", monospace;
-    font-size: 80%;
-    }
-
-/*****************************************************************************/
-/*
-/* Site
-/*
-/*****************************************************************************/
-
-.title {
-  color: #a00;
-  font-weight: bold;
-  margin-bottom: 2em;
-  }
-
-.site {
-  font-size: 110%;
-  text-align: justify;
-  width: 40em;
-  margin: 3em auto 2em auto;
-  line-height: 1.5em;
-  }
-
-  .site .title a {
-    color: #a00;
-    text-decoration: none;
-    }
-
-  .site .title a:hover {
-    color: black;
-    }
-
-  .site .title a.extra {
-    color: #aaa;
-    text-decoration: none;
-    margin-left: 1em;
-    }
-
-  .site .title a.extra:hover {
-    color: black;
-    }
-
-  .site .meta {
-    color: #aaa;
-    }
-
-  .site .footer {
-    font-size: 80%;
-    color: #666;
-    border-top: 4px solid #eee;
-    margin-top: 2em;
-    overflow: hidden;
-    }
-
-    .site .footer .contact {
-      float: left;
-      margin-right: 3em;
-      }
-
-      .site .footer .contact a {
-        color: #8085C1;
-        }
-
-    .site .footer .rss {
-      margin-top: 1.1em;
-      margin-right: -.2em;
-      float: right;
-      }
-
-      .site .footer .rss img {
-        border: 0;
-        }
+}
+#projectsection ul li ul{
+ margin:6px 0px 4px 0px;
+ padding-bottom:4px;
+}
+#projectsection ul li ul li{
+ font-size:11px;
+  font-weight:normal;
+  font-style:italic;
+  border-bottom:1px dotted #777;
+  padding-bottom:10px;
+  text-align:justify;
+   letter-spacing:0px;
+}
+a#createint {
+ position:relative;
+ display:block;
+ margin:0px auto 10px auto;
+ text-align:center;
+ width:150px;
+ padding:3px;
+ background-color:#454545;
+  font-size:10px;
+  color:#888;
+  text-decoration:none;
+}
+a#footer, a#footer:hover, a#footer:visited {
+ position:relative;
+ color:#CCC;
+ text-decoration:none;
+ padding:3px;
+ background-color:#454545;
+ border-top:3px solid #2e2e2e;
+  text-align:right;
+ font-size:10px;
+ padding:10px 20px 14px 0px;
+ width:720px;
+ display:block;
+}
 
 /*****************************************************************************/
 /*

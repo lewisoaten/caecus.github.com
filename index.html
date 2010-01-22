@@ -3,17 +3,49 @@ layout: default
 title: Lewis Oaten
 ---
 
-<div id="home">
-  <h1>Blog Posts</h1>
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-  
-  <h1>Projects</h1>
-  <ul class="posts">
-    <li><a href="http://github.com/caecus/avi2gif">avi2gif:</a> A simple tool to convert supported AVI files into GIF animations. Made for personal use in 2005, it grew in popularity on <a href="http://download.cnet.com/AVI2GIF/3000-2169_4-10445427.html?tag=mncol">download.com</a> and is now open source.</li>
-    <li><a href="http://github.com/caecus/PRCO303">PRCO303:</a> University final-year project.</li>
-  </ul>
-</div>
+        <!--INFO SECTION -->
+        <div id="infosection">
+          <h1>At an early age, Lewis started taking apart PCs to develop an understanding of how they worked and also began to programme simple applications.</h1>
+          <h2>Since then he has worked at Lockheed Martin for a placement year in industry and also, for his own interest, produced applications in languages such as PHP, Java and C#. Having completed his industrial placement year with conspicuous success, he is now in the final year of his BSc (Hons) Computing course at the University of Plymouth.</h2>
+          <span id="infotab"></span>
+        </div>
+        <span id="onlinebanner"><a id="google" href="http://google.com/profiles/sphyrz"></a><a id="linkedin" href="#"></a><a id="github" href="http://github.com/caecus/"></a></span>
+        <!--END INFO SECTION -->
+
+        <!--BLOG SECTION -->
+        <div id="blogsection">
+
+          {% for post in site.posts %}
+          <!--BLOG ENTRY1 -->
+          <span class="date"><strong>22</strong><em>January</em>99 Comments</span>
+          <div class="blogcontent">
+            <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+            <strong>{{ post.date | date_to_string }}{{ post.snippet }}</strong>
+          </div>
+          <!--/BLOG ENTRY1 -->
+          {% endfor %}
+
+          <span id="blogtab"></span>
+        </div>
+        <!--END BLOG SECTION -->
+
+        <!--PROJECT SECTION -->
+        <div id="projectsection">
+          <ul>
+
+            <li>avi2gif
+              <ul>
+                <li>A simple tool to convert supported AVI files into GIF animations. Made for personal use in 2005, it grew in popularity on <a href="http://download.cnet.com/AVI2GIF/3000-2169_4-10445427.html?tag=mncol">download.com</a> and is now open source.</li>
+              </ul>
+            </li>
+
+            <li>PRCO303
+              <ul>
+                <li>University final-year project.</li>
+              </ul>
+            </li>
+
+          </ul>
+          <span id="projecttab"></span>
+        </div>
+        <!--END PROJECT SECTION -->
