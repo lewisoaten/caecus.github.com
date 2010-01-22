@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Mobile Data Preservation
+snippit: This post documents my attempts to preserve my personal data as I migrate my phone from Windows Mobile to Android.
 ---
 
 h1. {{ page.title }}
