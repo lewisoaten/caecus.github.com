@@ -20,15 +20,19 @@ layout: default
     {% endfor %}
   </ul>
 </div> -->
+        <!--COMMENT SECTION -->
+        <div id="blogsection">
+          <h2>Comments</h2>
+          <form action="" method="post">
+            <textarea id="message" cols="50" rows="3"></textarea>
+            <input type="button" id="tweetBtn" value="Preview Tweet"/> 
+          </form> 
+          <div class="tweet" id="comment">
+            <img src="/images/loading.gif"></img> Calculating comment tag...
+          </div>
+        </div>
+        <!--END COMMENT SECTION -->
 
-<h2>Comments</h2>
-<form action="" method="post">
-  <textarea id="message" cols="50" rows="3"></textarea>
-  <input type="button" id="tweetBtn" value="Preview Tweet"/> 
-</form> 
-<div class="tweet" id="comment">
-  <img src="/images/loading.gif"></img> Calculating comment tag...
-</div>
 <script type='text/javascript'>
   $(document).ready(function(){
     // set up default options
