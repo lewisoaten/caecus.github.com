@@ -178,6 +178,13 @@ body {
 display:block;
 background-image:url(/images/github.gif);
 }
+#twitter {
+ width:120px;
+ height:36px;
+ float:right;
+display:block;
+background-image:url(/images/twitter.gif);
+}
 #linkedin {
  width:118px;
  height:36px;
