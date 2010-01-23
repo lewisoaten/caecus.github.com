@@ -253,6 +253,30 @@ a#footer, a#footer:hover, a#footer:visited {
  width:720px;
  display:block;
 }
+a span.retweet {
+  width: 16px;
+  height: 16px;
+  background-position: 0px 0px;
+  background-image: url(/images/retweet.png);
+}
+a:hover span.retweet {
+  width: 16px;
+  height: 16px;
+  background-position: -16px 0px;
+  background-image: url(/images/retweet.png);
+}
+a span.reply {
+  width: 16px;
+  height: 16px;
+  background-position: 0px 0px;
+  background-image: url(/images/reply.png);
+}
+a:hover span.reply:hover {
+  width: 16px;
+  height: 16px;
+  background-position: -16px 0px;
+  background-image: url(/images/reply.png);
+}
 
 /*****************************************************************************/
 /*

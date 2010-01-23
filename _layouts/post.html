@@ -3,7 +3,7 @@ layout: default
 ---
         <!--BLOG SECTION -->
         <div id="blogsection">
-          <span class="date"><strong>{{ page.date | date: "%d" }}</strong><em>{{ page.date | date: "%B" }}</em></span>
+          <span class="date"><strong>{{ page.date | date: "%d" }}</strong><em>{{ page.date | date: "%B" }}</em><a href="/"><span class="retweet" />Retweet</a></span>
           <div class="blogcontent">
             <h3><a href="{{ post.url }}">{{ page.title }}</a></h3>
             {{ content }}
