@@ -2,8 +2,9 @@
 layout: post
 title: An Investigation Into The Reasons Why Some Software Projects Fail
 tags:
- - project-management
+ - pmot
  - project
+ - nasa
 snippet: In December 2009, as an element of my university course work, I submitted an essay entitled, “The relationship between requirements & design and the failure of software development projects”. It was graded as first-class and was placed top of the cohort. It provides a valuable overview as to why correct requirements' elicitation at the outset, as well as subsequent analysis, is so critical to a software project's success.
 ---
 
