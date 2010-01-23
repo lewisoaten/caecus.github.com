@@ -2,6 +2,9 @@
 layout: post
 title: Mobile Data Preservation
 snippet: This post documents my attempts to preserve my personal data as I migrated my phone from Windows Mobile to Android.
+categories:
+ - backup
+ - android
 ---
 
 I have recently upgraded my phone from a Windows Mobile 6.1 to an Android 2.1 device. As with any OS upgrade, whether its on a computer or mobile phone, preserving your data is always a problem.
