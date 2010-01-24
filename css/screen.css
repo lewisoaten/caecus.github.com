@@ -264,7 +264,7 @@ a#footer, a#footer:hover, a#footer:visited {
 a.retweet {
   height: 16px;
   font-size:10px;
-  display: block;
+  display: none;
 }
 a.retweet span {
   width: 16px;
