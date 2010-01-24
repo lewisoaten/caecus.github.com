@@ -239,6 +239,14 @@ background-image:url(/images/twitter.gif);
   text-align:justify;
    letter-spacing:0px;
 }
+#blogcontent h3 {
+ padding:0px;
+ margin:0px;
+ font-size:24px;
+ color:#343434;
+ letter-spacing:-1px;
+ background-color:#F4F4F4
+}
 a#createint {
  position:relative;
  display:block;
