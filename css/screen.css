@@ -255,6 +255,8 @@ a#footer, a#footer:hover, a#footer:visited {
 }
 a.retweet {
   height: 16px;
+  font-size:10px;
+  display: block;
 }
 a.retweet span {
   width: 16px;
@@ -270,6 +272,8 @@ a.retweet:hover span {
 }
 a.reply {
   height: 16px;
+  font-size:10px;
+  display: block;
 }
 a.reply span {
   width: 16px;
