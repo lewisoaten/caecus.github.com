@@ -141,37 +141,6 @@ a:hover {
  font-size:12px;
  font-style:normal;
 }
-.blogcontent{
- position:relative;
- float:left;
- width:610px;
- height:auto;
- padding-bottom:20px;
- border-bottom:1px dotted #555;
- margin:0px 0px 20px 20px;
-}
-.blogcontent h3 {
- padding:0px;
- margin:0px;
- font-size:24px;
- color:#343434;
- letter-spacing:-1px;
- background-color:#F4F4F4
-}
-.blogcontent strong {
- position:relative;
- font:16px normal Georgia, "Times New Roman", Times, serif;
- font-weight:500;
- margin:6px 0px 6px 0px;
- display:block;
-}
-.blogcontent em {
- font-size:11px;
- font-style:normal;
- text-align:justify;
- display:block;
- line-height:18px;
-}
 #rss {
  position:absolute;
  top:0px;
@@ -210,42 +179,36 @@ background-image:url(/images/twitter.gif);
  display:block;
  background-image:url(/images/google.gif);
 }
-#projectsection ul {
- width:610px;
- margin:0px 0px 40px 84px;
+.homecontent{
+ position:relative;
  float:left;
- position:relative;
- padding:0px;
+ width:610px;
+ height:auto;
+ padding-bottom:20px;
+ border-bottom:1px dotted #555;
+ margin:0px 0px 20px 20px;
 }
-#projectsection li{
- position:relative;
- list-style:none;
- font-size:24px;
- font-weight:bold;
- color:#333;
- letter-spacing:-1px;
-
-}
-#projectsection ul li ul{
- margin:6px 0px 4px 0px;
- padding-bottom:4px;
-}
-#projectsection ul li ul li{
- font-size:11px;
-  font-weight:normal;
-  font-style:italic;
-  border-bottom:1px dotted #777;
-  padding-bottom:10px;
-  text-align:justify;
-   letter-spacing:0px;
-}
-#blogcontent h3 {
+.homecontent h3 {
  padding:0px;
  margin:0px;
  font-size:24px;
  color:#343434;
  letter-spacing:-1px;
  background-color:#F4F4F4
+}
+.homecontent strong {
+ position:relative;
+ font:16px normal Georgia, "Times New Roman", Times, serif;
+ font-weight:500;
+ margin:6px 0px 6px 0px;
+ display:block;
+}
+.homecontent em {
+ font-size:11px;
+ font-style:normal;
+ text-align:justify;
+ display:block;
+ line-height:18px;
 }
 a#createint {
  position:relative;

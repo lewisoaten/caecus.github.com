@@ -18,7 +18,7 @@ title: Lewis Oaten
           {% for post in site.posts %}
           <!--BLOG ENTRY1 -->
           <span class="date"><strong>{{ post.date | date: "%d" }}</strong><em>{{ post.date | date: "%B" }}</em></span>
-          <div class="blogcontent">
+          <div class="content">
             <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             <strong>{{ post.snippet }}</strong>
           </div>
@@ -31,18 +31,22 @@ title: Lewis Oaten
 
         <!--PROJECT SECTION -->
         <div id="projectsection">
-          <div class="blogcontent">
+
+          <div class="content">
             <h3><a href="http://github.com/caecus/avi2gif">avi2gif</a></h3>
             <strong>A simple tool to convert supported AVI files into GIF animations. Made for personal use in 2005, it grew in popularity on <a href="http://download.cnet.com/AVI2GIF/3000-2169_4-10445427.html?tag=mncol">download.com</a> and is now open source.</strong>
           </div>
-          <div class="blogcontent">
+
+          <div class="content">
             <h3><a href="http://github.com/caecus/PRCO303">PRCO303</a></h3>
             <strong>University final-year project.</strong>
           </div>
-          <div class="blogcontent">
+
+          <div class="content">
             <h3><a href="http://github.com/caecus/twitter-comments">Twitter Comments</a></h3>
             <strong>A simple client-side Javascript library which allows comments for your website which also drive more traffic.</strong>
           </div>
+
           <span id="projecttab"></span>
         </div>
         <!--END PROJECT SECTION -->
