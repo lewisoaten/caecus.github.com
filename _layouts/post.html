@@ -58,7 +58,7 @@ layout: default
         var url = "http://twitter.com/#search?q=" + data.results[defaults.longUrl].shortUrl + "&status=";
         url += $('textarea#message').val() + " " + data.results[defaults.longUrl].shortUrl;
 
-        $('a.retweet').attr("href", url + escape("{% for tag in page.tags %}+#{{ tag }}{% endfor %}"));
+        $('a.retweet').attr("href", escape("RT @lewisoaten: {{ post.title }}{% for tag in page.tags %}+#{{ tag }}{% endfor %}" + url));
         $('a.retweet').show();
 
         // Setup comment box
