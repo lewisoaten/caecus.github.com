@@ -253,7 +253,10 @@ a#footer, a#footer:hover, a#footer:visited {
  width:720px;
  display:block;
 }
-a span.retweet {
+a.retweet {
+  height: 16px;
+}
+a.retweet span {
   width: 16px;
   height: 16px;
   background-position: 0px 0px;
@@ -262,10 +265,13 @@ a span.retweet {
   display: block;
   float: left;
 }
-a:hover span.retweet {
+a.retweet:hover span {
   background-position: -16px 0px;
 }
-a span.reply {
+a.reply {
+  height: 16px;
+}
+a.reply span {
   width: 16px;
   height: 16px;
   background-position: 0px 0px;
@@ -274,7 +280,7 @@ a span.reply {
   display: block;
   float: left;
 }
-a:hover span.reply:hover {
+a.reply:hover span {
   background-position: -16px 0px;
 }
 
