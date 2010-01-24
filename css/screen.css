@@ -265,7 +265,6 @@ a.retweet span {
   background-image: url(/images/retweet.png);
   background-repeat: no-repeat;
   display: block;
-  float: left;
 }
 a.retweet:hover span {
   background-position: -16px 0px;
@@ -282,7 +281,6 @@ a.reply span {
   background-image: url(/images/reply.png);
   background-repeat: no-repeat;
   display: block;
-  float: left;
 }
 a.reply:hover span {
   background-position: -16px 0px;
