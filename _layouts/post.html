@@ -55,15 +55,16 @@ layout: default
 
     // Utilize the bit.ly API
     $.getJSON(daurl, function(data){
-        var url = "http://twitter.com/#search?q=" + data.results[defaults.longUrl].shortUrl + "&status=";
+        var urlSearch = "http://twitter.com/#search?q=" + data.results[defaults.longUrl].shortUrl + "&status=";
+        var urlHome = "http://twitter.com/home?status=";
 
-        $('a.retweet').attr("href", url + escape("RT @lewisoaten: {{ post.title }}{% for tag in page.tags %} #{{ tag }}{% endfor %} ") + data.results[defaults.longUrl].shortUrl);
+        $('a.retweet').attr("href", urlHome + escape("RT @lewisoaten: {{ page.title }}{% for tag in page.tags %} #{{ tag }}{% endfor %} ") + data.results[defaults.longUrl].shortUrl);
         $('a.retweet').show();
 
         // Setup comment box
         $('#tweetBtn').click( function() {
           
-          window.open(url + $('textarea#message').val() + " " + data.results[defaults.longUrl].shortUrl);
+          window.open(urlSearch + $('textarea#message').val() + " " + data.results[defaults.longUrl].shortUrl);
         });
 
         // Load comments
