@@ -8,6 +8,14 @@ body {
  color:#111;
  background-image:url(/images/repeat.gif);
  }
+a, a:visited {
+ color:#000;
+ text-decoration:none;
+}
+a:hover {
+ color:#000;
+ text-decoration:underline;
+}
 .case {
  position:relative;
  width:100%;
