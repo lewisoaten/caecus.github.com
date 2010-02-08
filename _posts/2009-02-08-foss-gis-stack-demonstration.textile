@@ -12,4 +12,4 @@ Last week I completed the first two-week sprint of my final year project. The pr
 
 The demonstration includes the high-level system design of the software stack and several screencasts demonstrating functionality. I compiled the video using Prezi.com and it can be viewed on YouTube "here":http://www.youtube.com/watch?v=YPIlj8cOfu4.
 
-The progress of this sprint can be seen on the "Scrummy sprint history":https://scrumy.com/prco303#dashboard/2010-01-31. Future sprints will have tangible software deliverables and will be published on the "GitHub project page":http://github.com/caecus/PRCO303.
+The progress of this sprint can be seen on the "Scrumy sprint history":https://scrumy.com/prco303#dashboard/2010-01-31. Future sprints will have tangible software deliverables and will be published on the "GitHub project page":http://github.com/caecus/PRCO303.
