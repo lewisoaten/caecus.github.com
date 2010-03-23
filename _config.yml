@@ -1,7 +1,7 @@
 pygments: true
 markdown: maruku
 maruku:
-  use_tex:    false
+  use_tex:    true
   use_divs:   false
   png_dir:    images/latex
   png_url:    /images/latex
