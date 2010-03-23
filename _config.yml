@@ -1,5 +1,10 @@
-markdown: rdiscount
 pygments: true
+markdown: maruku
+maruku:
+  use_tex:    false
+  use_divs:   false
+  png_dir:    images/latex
+  png_url:    /images/latex
 
 description: "Personal website for Lewis Oaten."
 keywords: - Lewis
