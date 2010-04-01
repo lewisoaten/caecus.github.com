@@ -1,5 +1,6 @@
 ---
 layout: post
+published: true
 title: Mobile Data Preservation
 snippet: This post documents my attempts to preserve my personal data as I migrated my phone from Windows Mobile to Android.
 tags:

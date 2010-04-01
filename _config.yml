@@ -1,6 +1,7 @@
 pygments: true
 markdown: rdiscount
-
+lsi: true
+permalink: /:categories/:year/:month/:day/:title.html
 description: "Personal website for Lewis Oaten."
 keywords: - Lewis
           - Oaten
