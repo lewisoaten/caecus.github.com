@@ -9,17 +9,19 @@ layout: default
             {{ content }}
           </div>
           <span id="blogtab"></span>
+        </div>
+        <!--END BLOG SECTION -->
 
         <!--RELATED POSTS SECTION -->
+        <div id="blogsection">
           {% for post in site.posts %}
             <span class="date"><strong>{{ post.date | date: "%d" }}</strong><em>{{ post.date | date: "%B" }}</em></span>
             <div class="homecontent">
-              <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+              <h4><a href="{{ post.url }}">{{ post.title }}</a></h4>
             </div>
           {% endfor %}
-          <!--END RELATED POSTS SECTION -->
         </div>
-        <!--END BLOG SECTION -->        
+        <!--END RELATED POSTS SECTION -->
 
         <!--COMMENT SECTION -->
         <div id="blogsection">
