@@ -42,3 +42,34 @@ layout: default
           <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
         </div>
         <!--END COMMENT SECTION -->
+
+<script type='text/javascript'>
+  $(document).ready(function(){
+    // set up default options
+    var defaults = {
+      version:    '2.0.1',
+      login:      'caecus',
+      apiKey:     'R_805cccec98054fee49e9f974d28623bf',
+      history:    '0',
+      longUrl:    'http://www.lewisoaten.com{{ page.url }}'
+    };
+
+  // Build the URL to query
+  var daurl = "http://api.bit.ly/shorten?"
+    +"version="+defaults.version
+    +"&longUrl="+defaults.longUrl
+    +"&login="+defaults.login
+    +"&apiKey="+defaults.apiKey
+    +"&history="+defaults.history
+    +"&format=json&callback=?";
+
+    // Utilize the bit.ly API
+    $.getJSON(daurl, function(data){
+        var urlSearch = "http://twitter.com/#search?q=" + data.results[defaults.longUrl].shortUrl + "&status=";
+        var urlHome = "http://twitter.com/home?status=";
+
+        $('a.retweet').attr("href", urlHome + escape("RT @lewisoaten: {{ page.title }}{% for tag in page.tags %} #{{ tag }}{% endfor %} ") + data.results[defaults.longUrl].shortUrl);
+        $('a.retweet').show();
+    });
+  });
+</script>
