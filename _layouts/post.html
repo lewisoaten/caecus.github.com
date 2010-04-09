@@ -27,14 +27,28 @@ layout: default
         <!--COMMENT SECTION -->
         <div id="blogsection">
           <h2>Comments</h2>
-          <form action="" method="post">
+          <div id="disqus_thread"></div>
+          <script type="text/javascript">
+            /**
+              * var disqus_identifier; [Optional but recommended: Define a unique identifier (e.g. post id or slug) for this thread] 
+              */
+            (function() {
+             var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+             dsq.src = 'http://lewisoaten.disqus.com/embed.js';
+             (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+            })();
+          </script>
+          <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript=lewisoaten">comments powered by Disqus.</a></noscript>
+          <a href="http://disqus.com" class="dsq-brlink">blog comments powered by <span class="logo-disqus">Disqus</span></a>
+
+          <!--<form action="" method="post">
             <textarea id="message" cols="50" rows="3"></textarea>
             <input type="button" id="tweetBtn" value="Preview Tweet"/> 
           </form> 
           <div class="tweet" id="comment">
             <img src="/images/loading.gif"></img> Calculating comment tag...
           </div>
-        </div>
+        </div>-->
         <!--END COMMENT SECTION -->
 
 <script type='text/javascript'>
