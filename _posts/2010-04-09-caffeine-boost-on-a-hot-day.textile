@@ -1,0 +1,72 @@
+---
+layout: post
+published: true
+title: Caffeine Boost on a Hot Day
+tags:
+ - coffee
+ - caffeine
+ - coding
+ - fyp
+snippet: Iced coffee is nothing new, but inspired by an Australian couples recipe, here is my rendition of the popular drink.
+---
+
+The time has come to knuckle down and finish off my final year report and any straggling projects as well as start revision, it is also that time of year where summer is looming around the corner. We are just starting to get a few snippets of hot weather and so it's nice to enjoy a cold drink. Considering that, as a software engineer, my caffeine level is directly proportionate to my productivity, I decided to take inspiration from an Australian couple who I met during my last weekend holiday.
+
+<table style="width:auto;"><tr><td><a href="http://picasaweb.google.com/lh/photo/i4DG3yI76doU_maYERFxiA?feat=embedwebsite"><img src="http://lh3.ggpht.com/_5pFmgjbK0K0/S7DQGohUsQI/AAAAAAAAo0k/m9RtO9VcB6M/s400/2010-03-27%2014.28.46.jpg" /></a></td></tr><tr><td style="font-family:arial,sans-serif; font-size:11px; text-align:right">From <a href="http://picasaweb.google.com/sphyrz/IcedCoffee?feat=embedwebsite">Iced Coffee</a></td></tr></table>
+
+h4. Ingredients
+* Instant coffee (1 - 3 tsp) or espresso (2 - 3 shots)
+* Sugar (same quantity as coffee)
+* Coca (if you want a Mocha)
+* Mug
+* Boiling water
+* Ice
+
+h4. Instructions
+!http://lh5.ggpht.com/_5pFmgjbK0K0/S7DP5iQypvI/AAAAAAAAo0c/GrvzIeeA1BM/s400/2010-03-27%2014.30.06.jpg!:http://picasaweb.google.com/lh/photo/Cryhb2gxKStAbvW19pZ7hA?feat=embedwebsite
+
+Insert your sugar into the mug.
+
+!http://lh4.ggpht.com/_5pFmgjbK0K0/S7DO-ZNi1EI/AAAAAAAAozk/CyHP5lfCTuw/s400/2010-03-27%2014.30.32.jpg!:http://picasaweb.google.com/lh/photo/oLEIbbP2Ao3eKgjX5lxqFA?feat=embedwebsite
+
+Optionally add Coca to make an Iced Mocha.
+
+!http://lh4.ggpht.com/_5pFmgjbK0K0/S7DPiBZ3UfI/AAAAAAAAo0M/X4-LPMj5xIQ/s400/2010-03-27%2014.31.11.jpg!:http://picasaweb.google.com/lh/photo/Dm35JhmQMB7JYkxTzWj_0g?feat=embedwebsite
+
+Add coffee granules or espresso shots.
+
+!http://lh6.ggpht.com/_5pFmgjbK0K0/S7DN3TGciwI/AAAAAAAAozE/AqsNw-p8hPI/s400/2010-03-27%2014.31.52.jpg!:http://picasaweb.google.com/lh/photo/JgghgIyeZemmGCFXRm679A?feat=embedwebsite
+
+If you are using instant coffee then add a tiny amount of hot water. Either way, mix up all of the ingredients.
+
+!http://lh5.ggpht.com/_5pFmgjbK0K0/S7DOXxLRIJI/AAAAAAAAozM/yva5q41NzPk/s400/2010-03-27%2014.34.12.jpg!:http://picasaweb.google.com/lh/photo/uC853X19s6LkrUhf3l-AyA?feat=embedwebsite
+
+If you find that the granules don't mix well, then a short blast in the microwave tends to dissolve everything.
+
+!http://lh3.ggpht.com/_5pFmgjbK0K0/S7DOe1IDL9I/AAAAAAAAozU/0ag1Ahonj9Q/s400/2010-03-27%2014.34.55.jpg!:http://picasaweb.google.com/lh/photo/tEzfCxFEzs1jJkLF8VDMeA?feat=embedwebsite
+
+Add Ice.
+
+!http://lh3.ggpht.com/_5pFmgjbK0K0/S7DO2ezlT2I/AAAAAAAAozc/3PZYRVJT5vM/s400/2010-03-27%2014.35.13.jpg!:http://picasaweb.google.com/lh/photo/Ri-ZebC8_8GoGNRIRdW0-g?feat=embedwebsite
+
+Mix up well to rapidly cool the hot drink.
+
+!http://lh3.ggpht.com/_5pFmgjbK0K0/S7DNosA4NwI/AAAAAAAAoys/b3dddQu4lhw/s400/2010-03-27%2014.35.35.jpg!:http://picasaweb.google.com/lh/photo/7Qko8SseIeMxJrpSFmcfeg?feat=embedwebsite
+
+Check that the drink is ice cold before continuing.
+
+!http://lh5.ggpht.com/_5pFmgjbK0K0/S7DNupdGg0I/AAAAAAAAoy4/Gl0Xp3KoYJs/s400/2010-03-27%2014.36.49.jpg!:http://picasaweb.google.com/lh/photo/qF8uQ8eG-RyJ7HFSu_7ZtA?feat=embedwebsite
+
+Add milk.
+
+!http://lh4.ggpht.com/_5pFmgjbK0K0/S7DNHFOLIyI/AAAAAAAAoyk/dLcDvJX4Plg/s400/2010-03-27%2014.37.16.jpg!:http://picasaweb.google.com/lh/photo/ilqhhoAqYlKG7W15GpDCDg?feat=embedwebsite
+
+Optionally top-up with water.
+
+!http://lh4.ggpht.com/_5pFmgjbK0K0/S7DD3HYbjnI/AAAAAAAAoyM/JtJ7aRe_Xg4/s400/2010-03-27%2014.38.55.jpg!:http://picasaweb.google.com/lh/photo/Attmb9IPDVJAqKLzBmcVMQ?feat=embedwebsite
+
+Enjoy your iced coffee or iced mocha.
+
+All of those instructions are repeated below in the Picasa gallery.	
+
+<div style="width:400px;font-family:arial,sans-serif;font-size:13px;"><div><embed type="application/x-shockwave-flash" src="http://picasaweb.google.com/s/c/bin/slideshow.swf" width="400" height="267" flashvars="host=picasaweb.google.com&captions=1&hl=en_GB&feat=flashalbum&RGB=0x000000&feed=http%3A%2F%2Fpicasaweb.google.com%2Fdata%2Ffeed%2Fapi%2Fuser%2Fsphyrz%2Falbumid%2F5458075254953529505%3Falt%3Drss%26kind%3Dphoto%26hl%3Den_GB" pluginspage="http://www.macromedia.com/go/getflashplayer"></embed></div><span style="float:left;"><a href="http://picasaweb.google.com/sphyrz/IcedCoffee?feat=flashalbum" style="color:#3964c2">View all</a></span><div style="text-align:right;"><a href="http://picasaweb.google.com/lh/getEmbed?feat=flashalbum" style="color:#3964c2">Get your own</a></div></div>
