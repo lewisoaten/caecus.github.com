@@ -14,8 +14,8 @@ layout: default
 
         <!--RELATED POSTS SECTION -->
         <div id="blogsection">
-          <h2>Related Posts</h2>
-          {% for post in site.posts %}
+          <h2>Similar Post</h2>
+          {% for post in site.related_posts limit:1 %}
             <span class="date"><strong>{{ post.date | date: "%d" }}</strong><em>{{ post.date | date: "%B" }}</em></span>
             <div class="homecontent">
               <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
