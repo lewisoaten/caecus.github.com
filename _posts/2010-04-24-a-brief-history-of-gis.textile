@@ -1,7 +1,7 @@
 ---
 layout: post
 published: true
-title: A Breif History of GIS
+title: A Brief History of GIS
 tags:
  - gis
  - history
@@ -26,7 +26,7 @@ One reason for the existence of so many vague definitions for GIS(Geospatial Inf
 
 Following this initial research many years of rapid evolution occurred. Geospatial researchers grasped every opportunity to develop the processes and systems in line with the evolution of computing. The arrival of modular computer programming languages and personal computers provided a more accessible platform on which research could be performed and so added momentum to the progress being made (Clarke, 2001). More recently with the abundant interconnectivity through networking, there has been a shift towards the development of collaborative tools.
 
-This shift in direction can be attributed to the widespread emergence of the Internet and the growth in international corporations. It involved a thrust towards research and development in Computer-Supported Cooporative Work (CSCW). This technology is required to assist with work done outside of "same-place, same-time," within space-time typology (Grudin, 1994). Geospatial research followed suit by studying synchronous and asynchronous collaboration activities (Braun and Guertin, 1997, Sarjakoski, 1998, Carver et al., 1998), perspectives and negotiation (Boland and Tenkasi, 1995, Harvey, 1997), representing participants and facilitating joint behaviour (Ferrand, 1996) and the usability of tools and environments (Jankowski and Stasik, 1997, Brkljac and Counsell, 1999).
+This shift in direction can be attributed to the widespread emergence of the Internet and the growth in international corporations. It involved a thrust towards research and development in Computer-Supported Cooperative Work (CSCW). This technology is required to assist with work done outside of "same-place, same-time," within space-time typology (Grudin, 1994). Geospatial research followed suit by studying synchronous and asynchronous collaboration activities (Braun and Guertin, 1997, Sarjakoski, 1998, Carver et al., 1998), perspectives and negotiation (Boland and Tenkasi, 1995, Harvey, 1997), representing participants and facilitating joint behaviour (Ferrand, 1996) and the usability of tools and environments (Jankowski and Stasik, 1997, Brkljac and Counsell, 1999).
 
 h4. References
 
