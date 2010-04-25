@@ -1,11 +1,11 @@
 ---
 layout: post
-published: false
+published: true
 title: A Breif History of GIS
 tags:
- - coffee
- - caffeine
- - coding
+ - gis
+ - history
+ - cartography
  - fyp
 snippet: This post describes the history of GIS with focus on its evolution towards supporting collaborative engineering.
 ---
