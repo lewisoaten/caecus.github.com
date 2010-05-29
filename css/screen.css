@@ -70,7 +70,7 @@ a:hover {
  margin:0px;
 }
 #infosection h1 {
- font:25px normal Georgia, "Times New Roman", Times, serif;
+ font-size:25px;
  color:#333;
  font-weight:100;
  line-height:26px;
@@ -79,7 +79,7 @@ a:hover {
 }
 #infosection h2 {
  position:relative;
- font:16px normal Georgia, "Times New Roman", Times, serif;
+ font-size:16px;
  color:#444;
  display:block;
  font-style:normal;
@@ -198,7 +198,7 @@ background-image:url(/images/twitter.gif);
 }
 .homecontent strong {
  position:relative;
- font:16px normal Georgia, "Times New Roman", Times, serif;
+ font-size:16px;
  font-weight:500;
  margin:6px 0px 6px 0px;
  display:block;
