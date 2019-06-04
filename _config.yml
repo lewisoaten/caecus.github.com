@@ -3,16 +3,4 @@ markdown: rdiscount
 lsi: true
 permalink: /:categories/:year/:month/:day/:title.html
 description: Personal website for Lewis Oaten.
-keywords: - Lewis
-          - Oaten
-          - Programming
-          - Development
-          - Software
-          - Engineering
-          - Code
-          - SVN
-          - Git
-          - Scrum
-          - XP
-          - Computing
 title: Lewis Oaten
