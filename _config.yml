@@ -1,6 +1,6 @@
-pygments: true
-markdown: rdiscount
+title: Lewis Oaten
+description: Personal website for Lewis Oaten.
+highlighter: rouge
+markdown: kramdown
 lsi: true
 permalink: /:categories/:year/:month/:day/:title.html
-description: Personal website for Lewis Oaten.
-title: Lewis Oaten
